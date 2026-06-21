@@ -1,73 +1,112 @@
-# SDTM Domain Development Project
+# Clinical SAS Programming Project: SDTM, ADaM & TLF Development
 
 ## Project Overview
 
-This project demonstrates the development of CDISC SDTM-compliant clinical trial datasets using SAS 9.4. The project includes the creation of Demographics (DM), Exposure (EX), Vital Signs (VS), Adverse Events (AE), and Supplemental Qualifier (SUPP) domains following CDISC SDTM standards.
+This project demonstrates the end-to-end Clinical SAS Programming workflow using SAS 9.4, covering the development of CDISC SDTM domains, ADaM datasets, and Tables, Listings, and Figures (TLFs) from raw clinical trial data. The project includes data standardization, validation, regulatory compliance checks, and generation of submission-ready deliverables following industry standards.
 
-## Objectives
+## Project Objectives
 
-* Develop standardized SDTM datasets from raw clinical trial data.
-* Apply CDISC SDTM mapping and variable derivations.
-* Generate submission-ready XPT transport files.
-* Perform data standardization and quality checks.
+* Transform raw clinical trial data into CDISC-compliant SDTM datasets.
+* Develop ADaM datasets for statistical analysis and reporting.
+* Generate Tables, Listings, and Figures (TLFs) for clinical study reporting.
+* Create submission-ready XPT transport files.
+* Perform data validation and Pinnacle 21 compliance checks.
 
-## Domains Developed
+## Deliverables
+
+### SDTM Domains
 
 * DM (Demographics)
+* AE (Adverse Events)
 * EX (Exposure)
 * VS (Vital Signs)
-* AE (Adverse Events)
-* SUPP (Supplemental Qualifiers)
+* SUPPDM (Supplemental Qualifiers)
+
+### ADaM Datasets
+
+* ADSL (Subject-Level Analysis Dataset)
+* ADEG (ECG Analysis Dataset)
+
+### TLF Outputs
+
+* Demographic Summary Table
+* Subject Demographics Listing
+* Vital Signs Listing
+* Adverse Events Summary Table
 
 ## Tools & Technologies
 
 * SAS 9.4
+* Base SAS
 * PROC SQL
-* PROC SORT
-* PROC TRANSPOSE
+* PROC REPORT
+* PROC FREQ
+* PROC MEANS
 * DATA Step Programming
-* CDISC SDTM Standards
+* CDISC SDTM
+* CDISC ADaM
+* Pinnacle 21 Community
 
-## Key Activities
+## Key Activities Performed
 
-* Mapped raw clinical trial data to SDTM domains.
-* Performed variable derivations and date conversions.
-* Created standardized datasets according to CDISC guidelines.
-* Generated XPT transport files for submission readiness.
-* Conducted data validation and quality review checks.
+* Imported and reviewed raw clinical trial datasets.
+* Mapped source data to CDISC SDTM standards.
+* Developed SDTM domains and derived analysis variables.
+* Created ADaM datasets (ADSL and ADEG) for analysis and reporting.
+* Generated submission-ready XPT transport files.
+* Performed data validation and Pinnacle 21 compliance checks.
+* Produced TLFs supporting clinical study reporting and analysis.
+
+## Clinical SAS Workflow
+
+Raw Clinical Data
+
+↓
+
+SDTM Development (DM, AE, EX, VS, SUPPDM)
+
+↓
+
+ADaM Development (ADSL, ADEG)
+
+↓
+
+Pinnacle 21 Validation
+
+↓
+
+XPT Transport Files
+
+↓
+
+TLF Generation
+
+↓
+
+Clinical Study Reporting
 
 ## Repository Structure
 
-DM/
+### SDTM
 
-* DM.sas
-* DM.pdf
-* DM.xpt
+* DM
+* AE
+* EX
+* VS
+* SUPPDM
 
-EX/
+### ADaM
 
-* EX.sas
-* EX.pdf
-* EX.xpt
+* ADSL
+* ADEG
 
-VS/
+### TLFs
 
-* VS.sas
-* VS.pdf
-* VS.xpt
-
-AE/
-
-* AE.sas
-* AE.pdf
-* AE.xpt
-
-SUPP/
-
-* SUPP.sas
-* SUPP.pdf
-* SUPP.xpt
+* Demographic Summary Table
+* Subject Demographics Listing
+* Vital Signs Listing
+* Adverse Events Summary Table
 
 ## Project Outcome
 
-Successfully developed five CDISC SDTM-compliant domains and generated submission-ready datasets demonstrating practical understanding of SDTM mapping, dataset standardization, and clinical trial data processing workflows.
+Successfully developed 5 CDISC SDTM domains, 2 ADaM datasets, submission-ready XPT files, and multiple TLF outputs using SAS 9.4. The project demonstrates practical knowledge of the complete Clinical SAS Programming workflow, including SDTM mapping, ADaM development, data validation, Pinnacle 21 compliance, and clinical reporting.
